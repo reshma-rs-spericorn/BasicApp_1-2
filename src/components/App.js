@@ -21,6 +21,7 @@ import Details3 from "./Details3";
 import Details4 from "./Details4";
 import Details5 from "./Details5";
 import Signup from "./Signup";
+import NestedRoute from './NestedRoute';
 
 class App extends Component {
 
@@ -43,6 +44,7 @@ class App extends Component {
             <Route path="/details4" component={Details4}/>
             <Route path="/details5" component={Details5}/>
             <Route path="/signup" component={Signup}/>
+            <Route path="/nestedroute" component={NestedRoute}/>
           </div>
           <Footer/>
         </div>

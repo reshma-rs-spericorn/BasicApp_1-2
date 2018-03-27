@@ -22,6 +22,7 @@ class Nav extends Component {
             <li><input type="text" name="search" placeholder="Search..."/></li>
             <li><NavLink to="/mycart">MyCart <span class="w3-badge w3-green">6</span></NavLink></li>
             <li><NavLink to="/signup">Signup</NavLink></li>
+            <li><NavLink to="/nestedroute">Nested Route</NavLink></li>
           </ul>
         </div>
       </div> 
