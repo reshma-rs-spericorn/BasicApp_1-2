@@ -25,7 +25,7 @@ const routes = [
 ]
 
 
-class App extends React.Component {
+class NestedRoute extends React.Component {
 
   render() {
     return (
@@ -56,4 +56,4 @@ class App extends React.Component {
 }
 
 
-export default App;
+export default NestedRoute;
